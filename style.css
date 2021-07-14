@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding-top: 700px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: crimson;
+    opacity: 0.9;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(to bottom right, #14db5a 30%, #0cedd3 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.profile {
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+#name {
+    font-weight: bold;
+    font-family: 'dancing script', cursive;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding-left: 478px;
+}
+.menu a{
+    color: crimson;
+    text-decoration: none;
+}
+.link {
+    float: left;
+    color: crimson;
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.link:hover {
+    background-color: darkblue;
+    font-size: 35px;
+}
+#video{
+    text-align: center;
+}
+iframe{
+    border: 5px solid black;
+    padding: 5px;
+}
+#work{
+    text-align: center;
+}
+#Writting{
+    text-align: center;
+}
+#Writting a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
